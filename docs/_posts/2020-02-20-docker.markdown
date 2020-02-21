@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Docker"
+date:   2020-02-20 12:00:00 +0100
+categories: docker container
+---
+# Recap
+
+# Cheat scheet
+List available images:
+```
+docker image ls
+```
+
+List all containers:
+```
+docker container ls --all
+```
+
+Build image "abc" with tag "1.0":
+```
+docker image build -t abc:1.0
+```
+
+Run image "abc:1.0":
+```
+docker container run --publish 8000:8080 --detach --name abc abc:1.0
+```
+
+Stop container "abc":
+```
+docker container stop abc
+```
+
+Remove container "abc":
+```
+docker container rm abc
+```
+
+# Links
+* Docker getting started: <https://docs.docker.com/engine/docker-overview/>
+* Dockerfile reference: <https://docs.docker.com/engine/reference/builder/>
+* Docker integration with Intellij: <https://training.play-with-docker.com/java-debugging-intellij/>
+* Docker for Java developers: <https://github.com/docker/labs/tree/master/developer-tools/java/>

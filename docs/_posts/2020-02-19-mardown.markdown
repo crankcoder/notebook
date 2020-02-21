@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Markdown"
+date:   2020-02-19 12:00:00 +0100
+categories: syntax language
+---
+# Recap
+Markdown is a lightweight markup language with plain-text-formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML. [Wiki](https://en.wikipedia.org/wiki/Markdown)
+
+Sourcode hosting platforms like Github or Bitbucked supports markdown syntax. It makes it extremely usfeul for writing readme files.
+
+# Links
+* John Gruber's original spec: <https://daringfireball.net/projects/markdown/>
+    * and cheat sheet <https://daringfireball.net/projects/markdown/syntax>
+* Mark down cheat sheet: <https://www.markdownguide.org/cheat-sheet/>
+* Mark down cheat sheet from Github: <https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf>
+* Github pages project: <https://pages.github.com/>
