@@ -1,0 +1,47 @@
+---
+layout: post
+title:  "GIT"
+date:   2020-02-20 12:00:00 +0100
+categories: git cvs devops
+---
+
+# Cheat scheet
+```
+# Initialize git repository
+git init 
+
+# Clone git repository 
+git clone 
+
+# Add a new remote to existing repository
+git remote add origin git@github.com:crankcoder/sandbox.git
+
+# Show status
+git status
+
+# Fetch list of remote branches from the remote server 
+git fech 
+
+# Pull changes from remote branch
+git pull
+
+# Create a new branch 
+git checkout -b "branch name"
+
+# Stage changes
+git add --all
+git add file.txt
+git add *.java
+
+# Unstage changes
+git restore --staged *.java
+
+
+# Commit staged changes
+git commit -m "Commit message" 
+
+# Push commits to the remote repo
+git push 
+git push -u origin master 
+
+```
