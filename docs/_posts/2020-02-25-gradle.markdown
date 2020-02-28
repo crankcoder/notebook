@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Gradle"
+date:   2020-02-20 12:00:00 +0100
+categories: gradle build devops
+---
+
+# Cheat scheet
+Useful commands
+```
+# get list of tasks
+gradlew tasks 
+
+# show project's properties
+gradlew properties
+```
+
+Build file example:
+```
+
+```
+
+# Links
+* What is gradle: <https://docs.gradle.org/current/userguide/what_is_gradle.html#five_things>
+* Migration from Maven to Gradle: <https://docs.gradle.org/current/userguide/migrating_from_maven.html>
+* Build lifecycle: <https://docs.gradle.org/current/userguide/build_lifecycle.html#build_lifecycle>
+* API Documentation: Project: <https://docs.gradle.org/current/dsl/org.gradle.api.Project.html>
+* Building Java & JVM projects: <https://docs.gradle.org/current/userguide/building_java_projects.html#building_java_projects>
+* Full reference to the command-line interface: https://docs.gradle.org/4.10.3/userguide/command_line_interface.html
